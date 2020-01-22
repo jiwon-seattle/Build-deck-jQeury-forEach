@@ -8,8 +8,7 @@ $(document).ready(function(){
 
       suits.forEach(function(suit){
        ranks.forEach(function(rank){
-           $("#result").append(rank + " of " + suit + ", ");
-
+           $("#result").append("<li>" + rank + " of " + suit + ", "+ "</li>");
         });
       });
 
